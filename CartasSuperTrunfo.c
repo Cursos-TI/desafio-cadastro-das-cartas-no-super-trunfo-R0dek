@@ -3,18 +3,18 @@
 int main() {
 
     //Variáveis da primeira Carta
-    char estado1[10];
-    char codigo1[10];
-    char cidade1[10];
+    char estado1[50];
+    char codigo1[15];
+    char cidade1[50];
     int populacao1;
     float area1;
     float pib1;
     int pontosT1; // Variável de pontos turísticos
 
     //Variáveis da Segunda Carta
-    char estado2[10];
-    char codigo2[10];
-    char cidade2[10];
+    char estado2[50];
+    char codigo2[15];
+    char cidade2[50];
     int populacao2;
     float area2;
     float pib2;
@@ -24,19 +24,19 @@ int main() {
 
     //Coletando informaçôes para a primeira carta
     printf("Digite o nome do estado: ");
-    scanf(" %s", &estado1);
+    scanf(" %s", estado1);
     printf("Digite o código do estado: ");
     scanf(" %s", &codigo1);
     printf("Digite o nome da cidade: ");
-    scanf(" %s", &cidade1);
+    scanf(" %s", cidade1);
     printf("Digite a população da cidade: ");
-    scanf("%i", &populacao1);
+    scanf("%d", &populacao1);
     printf("Digite a área da cidade: ");
     scanf(" %f", &area1);
     printf("Digite o PIB da cidade: ");
     scanf(" %f", &pib1);
     printf("Digite quantos pontos turísticos a cidade têm: ");
-    scanf(" %i", &pontosT1);
+    scanf(" %d", &pontosT1);
 
 
 
@@ -46,19 +46,19 @@ int main() {
 
     //Coletando informaçôes para a segunda carta
     printf("Digite o nome do estado: ");
-    scanf(" %s", &estado2);
+    scanf(" %s", estado2);
     printf("Digite o código do estado: ");
     scanf(" %s", &codigo2);
     printf("Digite o nome da cidade: ");
-    scanf(" %s", &cidade2);
+    scanf(" %s", cidade2);
     printf("Digite a população da cidade: ");
-    scanf("%i", &populacao2);
+    scanf("%d", &populacao2);
     printf("Digite a área da cidade: ");
     scanf(" %f", &area2);
     printf("Digite o PIB da cidade: ");
     scanf(" %f", &pib2);
     printf("Digite quantos pontos turísticos a cidade têm: ");
-    scanf(" %i", &pontosT2);
+    scanf(" %d", &pontosT2);
 
 
     //---------------------------------------------------------------------------
